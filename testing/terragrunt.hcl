@@ -2,7 +2,7 @@
 
 terraform {
     #source = "${get_env("HOME")}/today/aws-cluster-ecr-apps-terraform//"
-    source = "git::https://github.com/josefloressv/aws-cluster-ecs-fargate-terraform.git//"
+    source = "git::https://github.com/josefloressv/aws-cluster-ecr-apps-terraform.git"
 }
 
 remote_state {
