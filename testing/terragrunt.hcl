@@ -23,6 +23,7 @@ inputs = {
     }
 
     # ECR defaults
+    ecr_default_tag_mutability = "MUTABLE"
     ecr_repo_policy_expiration_days = 7
     ecr_repo_policy_description = "Expire images older than 7 days"
     ecr_repo_tags = {
