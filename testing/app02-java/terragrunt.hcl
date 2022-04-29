@@ -4,5 +4,5 @@ include {
 
 inputs = {
     # ECR
-    ecr_repo_name = "app02"
+    ecr_repo_name = "app02-java"
 }
